@@ -1,0 +1,30 @@
+{
+  "name": "asv2108/docker",
+  "type": "project",
+  "require-dev": {
+    "codeception/module-asserts": "*",
+    "codeception/module-phpbrowser": "*",
+    "codeception/module-rest": "*",
+    "codeception/module-yii2": "*",
+    "codeception/module-db": "*",
+    "codeception/module-datafactory": "*",
+    "codeception/codeception": "*",
+    "codeception/module-webdriver": "2.0.x-dev"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexey Vasilyev",
+      "email": "asv2108@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "asv2108\\docker\\": "src/"
+    }
+  }
+}

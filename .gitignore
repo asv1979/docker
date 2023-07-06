@@ -20,3 +20,4 @@ psalm.xml
 makefile
 /docker/db/tmp
 !/docker/db/tmp/light_db.dump
+vendor
